@@ -1,10 +1,11 @@
 <?php 
 
-$host = "localhost";
-$user = "admin";
-$password = "201017dj";
+$host = "localhost"; // nama server
+$user = "admin"; 
+$password = "201017dj"; 
 $db = "mahasiswa";
 
+// function untuk menyambungkan ke database
 $conn = mysqli_connect($host, $user, $password, $db);
 
 if(!$conn) {
